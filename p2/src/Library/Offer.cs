@@ -33,5 +33,14 @@ namespace Ucu.Poo.Defense
         {
             this.items.Remove(item);
         }
+
+        public string OfferText(OfferItem text)
+        {
+            get
+            {
+                return this.Text = text;
+            }
+            
+        }
     }
 }
